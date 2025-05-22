@@ -7,35 +7,42 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome to your AI french poem Generator</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Type the main idea of your poem"
-          required
-          autocomplete="off"
-          autofocus
-        />
-        <input type="Submit" />
-      </form>
-      <div>The poem will display here</div>
-    </main>
-    <footer>
-      The AI project is coded by
-      <a href="https://github.com/julietteladiv" target="_blank"
-        >Juliette Vidal</a
-      >, open source on
-      <a
-        href="https://github.com/julietteladiv/french-poem-generator"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://french-poem-generator-jv.netlify.app/" target="_blank">
-        Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Type the main idea of your poem"
+            required
+            autocomplete="off"
+            autofocus
+            class="instructions"
+          />
+          <input type="Submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will display here<br />The poem will display here
+        </div>
+      </main>
+      <footer>
+        The AI project is coded by
+        <a href="https://github.com/julietteladiv" target="_blank"
+          >Juliette Vidal</a
+        >, open source on
+        <a
+          href="https://github.com/julietteladiv/french-poem-generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://french-poem-generator-jv.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
